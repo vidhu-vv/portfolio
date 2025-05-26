@@ -1,4 +1,44 @@
 @import 'tailwindcss';
 @theme {
-  --color-primary: #283d3b;
+  /* Primary colors from palette */
+  --color-primary: #36413e; /* outer-space */
+  --color-primary-foreground: #d7d6d6; /* timberwolf */
+  
+  /* Secondary colors */
+  --color-secondary: #5d5e60; /* davys-gray */
+  --color-secondary-foreground: #d7d6d6; /* timberwolf */
+  
+  /* Accent colors */
+  --color-accent: #beb2c8; /* thistle */
+  --color-accent-foreground: #36413e; /* outer-space */
+  
+  /* Background and foreground */
+  --color-background: #36413e; /* outer-space for dark theme */
+  --color-foreground: #d7d6d6; /* timberwolf */
+  
+  /* Muted tones */
+  --color-muted: #5d5e60; /* davys-gray */
+  --color-muted-foreground: #8d8d92; /* taupe-gray */
+  
+  /* Border and input */
+  --color-border: #5d5e60; /* davys-gray */
+  --color-input: #5d5e60; /* davys-gray */
+  
+  /* Destructive */
+  --color-destructive: #8d8d92; /* taupe-gray - a softer destructive color */
+  --color-destructive-foreground: #d7d6d6; /* timberwolf */
+  
+  /* Card */
+  --color-card: #36413e; /* outer-space */
+  --color-card-foreground: #d7d6d6; /* timberwolf */
+  
+  /* Popover */
+  --color-popover: #36413e; /* outer-space */
+  --color-popover-foreground: #d7d6d6; /* timberwolf */
+  
+  /* Font */
+  --font-sans: 'Bagnard Regular', serif;
+  
+  /* Radius */
+  --radius: 0.5rem;
 }
